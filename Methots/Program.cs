@@ -49,3 +49,17 @@ string Method4(int count, string c)
 
 string result = Method4(10, "asdf");
 Console.WriteLine(result);
+
+// Вид 4
+string Method4(int count, string c)
+{
+    string result = String.Empty;
+    for(int i = 0, i < count, i++);
+    {
+        result = result + c;
+    }
+    return result;
+}
+
+string result = Method4(10, "asdf");
+Console.WriteLine(result);
